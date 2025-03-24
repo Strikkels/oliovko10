@@ -1,5 +1,9 @@
 package com.lauri.oliovko10;
 
+import android.util.Log;
+
+import com.fasterxml.jackson.databind.JsonNode;
+
 import java.util.ArrayList;
 
 public class CarDataStorage {
@@ -20,6 +24,7 @@ public class CarDataStorage {
     public ArrayList<CarData> getCarData() {
         return carData;
     }
+
     public void setCity(String city) {
         this.city = city;
     }
